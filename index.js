@@ -7,8 +7,8 @@ server.get('/hello', (req,res) => {
     res.json('Welcome')
 })
 
-const PORT = process.env.PORT || 9000;
+const port = process.env.PORT || 9000;
 
-server.listen(PORT, () => {
+server.listen(port, () => {
     console.log(`listening on port ${PORT}`)
 })
