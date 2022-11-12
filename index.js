@@ -3,7 +3,7 @@ const express = require('express')
 const server = express()
 server.use(express.json());
 
-server.get('/', (req,res) => {
+server.get('/hello', (req,res) => {
     res.json('Welcome')
 })
 
